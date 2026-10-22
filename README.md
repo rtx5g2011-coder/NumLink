@@ -1,2 +1,2 @@
 # NumLink
-A device you can use to send digits to a friend.
+NumLink (Arcade Edition) is a standalone hardware pocket game built with MicroPython on the Raspberry Pi Pico. The device secretly picks a random digit from 0 to 9, giving the player 3 lives to guess the correct number using a 4-channel capacitive touch sensor. The single-digit 7-segment display acts as a full user interface—displaying your current selection, Higher (H) or Lower (L) hints, remaining chances, and victory/game-over animations.
