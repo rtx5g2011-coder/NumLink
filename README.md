@@ -1,3 +1,4 @@
+<img width="1917" height="1078" alt="Screenshot 2026-10-23 172553" src="https://github.com/user-attachments/assets/3713381c-08a9-4020-b838-8c150b3b74b0" />
 <img width="605" height="1280" alt="WhatsApp Image 2026-10-23 at 5 02 33 1 PM" src="https://github.com/user-attachments/assets/6a593b4d-191a-4f11-bb4b-5bbc378dca9f" />
 # NumLink 🎮
 A 3-Chance Number Guessing Game built with the Raspberry Pi Pico and MicroPython. 
