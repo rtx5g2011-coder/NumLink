@@ -1,3 +1,4 @@
+<img width="605" height="1280" alt="WhatsApp Image 2026-10-23 at 5 02 33 1 PM" src="https://github.com/user-attachments/assets/6a593b4d-191a-4f11-bb4b-5bbc378dca9f" />
 # NumLink 🎮
 A 3-Chance Number Guessing Game built with the Raspberry Pi Pico and MicroPython. 
 
@@ -43,3 +44,31 @@ Once activated, the screen will flash `E`. Tap any 5 pads to record a brand-new 
 
 ---
 *Built for Hack Club Forge. Next step: Designing a custom PCB!*
+
+
+## 🛒 Bill of Materials (BOM)
+| Component | Quantity | Description |
+| :--- | :--- | :--- |
+| Raspberry Pi Pico | 1 | Microcontroller |
+| 7-Segment Display | 1 | 1-Digit, 10-pin Common Cathode |
+| TTP224 Touch Module| 1 | 4-Pad Capacitive Touch Sensor |
+| Active Buzzer | 1 | 5V Active Buzzer |
+| LED | 1 | Standard 5mm LED |
+| Resistor | 1 | 220 ohm (for Status LED) |
+| Breadboard & Wires | 1 | Standard breadboard and jumper wires |
+
+## 🔌 Wiring Diagram (Hand-Wired Prototype)
+*Since this project is currently hand-wired on a breadboard, here is the exact pinout required to replicate it:*
+
+| Pico Pin | Component Connection |
+| :--- | :--- |
+| **GP0** | Status LED (Positive leg) |
+| **GP10** | Touch Pad 1 (Up) |
+| **GP11** | Touch Pad 2 (Down) |
+| **GP12** | Touch Pad 3 (Guess) |
+| **GP13** | Touch Pad 4 (Info) |
+| **GP15** | Active Buzzer (Positive leg) |
+| **GP16 - GP22** | 7-Segment Display (A-G segments) |
+| **GP26** | 7-Segment Display (DP/Dot) |
+| **GND (Pin 38)** | All Component Grounds |
+| **3V3 (Pin 36)** | Touch Sensor VCC Power |
