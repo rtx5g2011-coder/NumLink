@@ -32,7 +32,7 @@ If you guess wrong, the display will briefly flash `H` (Go Higher) or `L` (Go Lo
 NumLink constantly tracks your last 5 inputs. Try entering these sequences during normal gameplay:
 * **9-Lives Cheat:** `Pad 1, Pad 1, Pad 2, Pad 2, Pad 3` (Up, Up, Down, Down, Guess)
 * **Revert to Normal:** `Pad 2, Pad 2, Pad 1, Pad 1, Pad 4`
-* **Edit Mode:** `Pad 4, Pad 4, Pad 1, Pad 2` (Info, Info, Up, Down)
+* **Edit Mode:** `Pad 1, Pad 2, Pad 2, Pad 2` (Info, Info, Up, Down)
 
 **Using Edit Mode:**
 Once activated, the screen will flash `E`. Tap any 5 pads to record a brand-new cheat code sequence. The game will save this sequence to the Pico's flash storage, and it will become the new permanent code to trigger the 9-lives cheat!
